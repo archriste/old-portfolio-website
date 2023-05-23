@@ -18,9 +18,9 @@ module.exports = {
           '100%': { opacity: '1' }
         },
         diagonal: {
-          '0%': { 'background-position': '0% 200%' },
-          '50%': { 'background-position': '200% 0%'},
-          '100%': { 'background-position': '0% 200%' }
+          '0%': { 'background-position': '0px 720px' },
+          '50%': { 'background-position': '720px 0px'},
+          '100%': { 'background-position': '0px 720px' }
         },
         pop: {
           '0%': { transform: 'scaleX(1) scaleY(1)' },
@@ -28,12 +28,18 @@ module.exports = {
           '50%': { transform: 'scaleX(1) scaleY(1)' },
           '100%': { transform: 'scaleX(1) scaleY(1)' },
         },
+        glow: {
+          '0%' : { boxShadow: '0 0 0.5rem #fff' },
+          '50%': { boxShadow: '0 0 1rem #fff' },
+          '100%': { boxShadow: '0 0 0.5rem #fff' },
+        }
       },
       animation: {
         fade: 'fade 2s linear forwards',
         slowfade: 'slowfade 4s linear forwards',
-        diagonal: 'diagonal 60s linear infinite',
+        diagonal: 'diagonal 60s ease-in-out infinite',
         pop: 'pop 3s ease-out infinite',
+        glow: 'glow 3s ease-in-out infinite',
       },
       height: {
         '50': "50px",

@@ -1002,20 +1002,20 @@ video {
 
 @keyframes diagonal{
   0%{
-    background-position: 0% 200%;
+    background-position: 0px 720px;
   }
 
   50%{
-    background-position: 200% 0%;
+    background-position: 720px 0px;
   }
 
   100%{
-    background-position: 0% 200%;
+    background-position: 0px 720px;
   }
 }
 
 .animate-diagonal{
-  animation: diagonal 60s linear infinite;
+  animation: diagonal 60s ease-in-out infinite;
 }
 
 @keyframes fade{
@@ -1030,6 +1030,24 @@ video {
 
 .animate-fade{
   animation: fade 2s linear forwards;
+}
+
+@keyframes glow{
+  0%{
+    box-shadow: 0 0 0.5rem #fff;
+  }
+
+  50%{
+    box-shadow: 0 0 1rem #fff;
+  }
+
+  100%{
+    box-shadow: 0 0 0.5rem #fff;
+  }
+}
+
+.animate-glow{
+  animation: glow 3s ease-in-out infinite;
 }
 
 @keyframes pop{
