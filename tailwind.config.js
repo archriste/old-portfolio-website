@@ -37,7 +37,7 @@ module.exports = {
       animation: {
         fade: 'fade 2s linear forwards',
         slowfade: 'slowfade 4s linear forwards',
-        diagonal: 'diagonal 60s ease-in-out infinite',
+        diagonal: 'diagonal 45s ease-in-out infinite',
         pop: 'pop 3s ease-out infinite',
         glow: 'glow 3s ease-in-out infinite',
       },

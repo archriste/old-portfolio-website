@@ -1015,7 +1015,7 @@ video {
 }
 
 .animate-diagonal{
-  animation: diagonal 60s ease-in-out infinite;
+  animation: diagonal 45s ease-in-out infinite;
 }
 
 @keyframes fade{
