@@ -7,6 +7,7 @@ My philosophy for designing this website is to use a variety of different tools 
 I've learned about web development so far. I intend to implement React for further functionality, add 
 more content such as a blog, and periodically update my selected projects as I complete them.
 ## Features 🚀
+The main page was developed with jQuery and Tailwind.<br><br>
 In order of appearance, from top scrolling down:
 - Hero section with fixed position, title, and button at the bottom to scroll to the first section
 - Navbar that appears at the top of the content until the user scrolls past, at which point it sticks
