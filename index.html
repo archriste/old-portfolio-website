@@ -17,10 +17,12 @@
   </head>
 
   <body
-    class="h-full w-full overscroll-auto text-white max-w-full overflow-x-hidden"
+    class="h-full w-full overflow-x-hidden overscroll-none text-white"
   >
     <div id="hero">
-      <div class="bg-gradient-to-t from-stone-800 to-stone-900 fixed inset-0 flex flex-col items-center justify-center">
+      <div
+        class="fixed inset-0 flex flex-col items-center justify-center bg-gradient-to-t from-stone-800 to-stone-900"
+      >
         <span
           id="hero-title"
           class="fixed left-2/4 top-2/4 w-full -translate-x-2/4 -translate-y-2/4 animate-fade text-center font-inter text-8xl"
@@ -28,8 +30,14 @@
           Alain Christe
         </span>
         <a
+          href="https://github.com/archriste/archriste.github.io/blob/main/README.md"
+          target="_blank"
+          class="fixed top-3/4 animate-slowfade text-center font-inter"
+          >Help me out; click here to view the readme!</a
+        >
+        <a
           href="#goto-about"
-          class="fixed bottom-4 left-2/4 h-8 w-8 -translate-x-2/4 animate-slowfade"
+          class="fixed bottom-4 left-2/4 inline-block h-8 w-8 -translate-x-2/4 animate-slowfade"
         >
           <i class="fa-solid fa-caret-down fa-bounce fa-2xl"></i>
         </a>
@@ -41,7 +49,10 @@
       <a class="hover:text-amber-300" href="#goto-contact">Contact</a>
     </div>
 
-    <div id="content" class="absolute top-full max-w-full pt-20 overflow-hidden">
+    <div
+      id="content"
+      class="absolute top-full max-w-full overflow-hidden pt-20"
+    >
       <section
         id="about"
         class="relative z-20 block min-h-screen bg-gray-800 bg-gradient-to-r from-emerald-500 to-emerald-600 px-10 pb-10 md:px-20"
@@ -59,10 +70,19 @@
             I believe that being obsessed about customers and the user
             experience is the key to building great products and delivering
             value. If you'd like to work together, feel free to
-            <a class="animate-pop inline-block hover:" href="#goto-contact">reach out!</a>
+            <a class="hover: inline-block animate-pop" href="#goto-contact"
+              >reach out!</a
+            >
           </p>
-          <h2 class="py-8 font-inter text-5xl drop-shadow-xl">I've got a blog, too.</h2>
-          <a href="blog/blog.html" target="_blank" class="inline-block pt-4 font-inter text-2xl drop-shadow-xl animate-pop">Click here to have a look.</a>
+          <h2 class="py-8 font-inter text-5xl drop-shadow-xl">
+            I've got a blog, too.
+          </h2>
+          <a
+            href="blog/blog.html"
+            target="_blank"
+            class="inline-block animate-pop pt-4 font-inter text-2xl drop-shadow-xl"
+            >Click here to have a look.</a
+          >
         </div>
       </section>
       <section
@@ -70,7 +90,7 @@
         class="relative z-20 block min-h-screen bg-gray-800 bg-gradient-to-r from-sky-500 to-indigo-500 px-10 pb-10 md:px-20"
       >
         <a class="relative bottom-20 block" id="goto-projects"></a>
-        <div class="filler">
+        <div class="container">
           <h1 class="py-8 font-inter text-6xl drop-shadow-xl">Projects</h1>
           <h3 class="py-4 font-inter text-2xl drop-shadow-xl">
             Here's a selection of projects I've completed.
@@ -85,7 +105,7 @@
             class="mx-auto grid max-w-sm grid-cols-1 gap-1 py-8 lg:max-w-7/8 lg:grid-cols-2 xl:grid-cols-3"
           >
             <div
-              class="animate-glow group relative h-full border-2 border-white transition duration-200 ease-out hover:z-50 md:hover:scale-125"
+              class="group relative h-full animate-glow border-2 border-white transition duration-200 ease-out hover:z-50 md:hover:scale-125"
             >
               <img src="images/project-calculator.png" alt="React Calculator" />
               <div
@@ -108,7 +128,7 @@
             </div>
 
             <div
-              class="animate-glow group relative h-full border-2 border-white transition duration-200 ease-out hover:z-50 md:hover:scale-125"
+              class="group relative h-full animate-glow border-2 border-white transition duration-200 ease-out hover:z-50 md:hover:scale-125"
             >
               <img src="images/project-markdown.png" alt="Markdown Previewer" />
               <div
@@ -130,7 +150,7 @@
             </div>
 
             <div
-              class="animate-glow group relative h-full border-2 border-white transition duration-200 ease-out hover:z-50 md:hover:scale-125"
+              class="group relative h-full animate-glow border-2 border-white transition duration-200 ease-out hover:z-50 md:hover:scale-125"
             >
               <img src="images/project-quote.png" alt="Quote Machine" />
               <div
@@ -152,7 +172,7 @@
             </div>
 
             <div
-              class="animate-glow group relative h-full border-2 border-white transition duration-200 ease-out hover:z-50 md:hover:scale-125"
+              class="group relative h-full animate-glow border-2 border-white transition duration-200 ease-out hover:z-50 md:hover:scale-125"
             >
               <img src="images/project-timer.png" alt="Productivity Clock" />
               <div
@@ -175,7 +195,7 @@
             </div>
 
             <div
-              class="animate-glow group relative h-full border-2 border-white transition duration-200 ease-out hover:z-50 md:hover:scale-125"
+              class="group relative h-full animate-glow border-2 border-white transition duration-200 ease-out hover:z-50 md:hover:scale-125"
             >
               <img src="images/project-drums.png" alt="Keyboard Drumpad" />
               <div
@@ -197,7 +217,7 @@
             </div>
 
             <div
-              class="animate-glow group relative h-full border-2 border-white transition duration-200 ease-out hover:z-50 md:hover:scale-125"
+              class="group relative h-full animate-glow border-2 border-white transition duration-200 ease-out hover:z-50 md:hover:scale-125"
             >
               <img src="images/project-cursor.png" alt="Cursor Seeking Spot" />
               <div
@@ -223,62 +243,63 @@
       </section>
       <section
         id="contact"
-        class="relative z-20 block min-h-screen bg-gray-800 bg-gradient-to-t from-amber-300 to-amber-400 px-10 pb-10 md:px-20"
+        class="relative z-20 block min-h-screen overscroll-none bg-gray-800 bg-gradient-to-t from-amber-300 to-amber-400 px-10 pb-10 md:px-20"
       >
-      <div class="flex flex-col justify-center items-center">
-        <a class="relative bottom-20 block" id="goto-contact"></a>
-        <h1 class="py-8 text-center font-inter text-6xl drop-shadow-xl">
-          Contact me!
-        </h1>
-        <div
-          class="grid h-96 w-96 grid-cols-2 justify-items-center gap-4"
-        >
+        <div class="flex flex-col items-center justify-center">
+          <a class="relative bottom-20 block" id="goto-contact"></a>
+          <h1 class="py-8 text-center font-inter text-6xl drop-shadow-xl">
+            Contact me!
+          </h1>
+          <div class="grid h-96 w-96 grid-cols-2 justify-items-center gap-4">
+            <a
+              id="contact-email"
+              class="group relative flex h-full w-full animate-diagonal flex-col justify-center rounded-2xl bg-opacity-0 bg-[url('/images/funky.png')] bg-fixed p-4 text-center text-white shadow"
+              href="mailto:alain@christe.co"
+            >
+              <div
+                class="absolute inset-0 h-full w-full rounded-2xl transition duration-200 group-hover:backdrop-invert"
+              ></div>
+              <i class="fas fa-envelope fa-5x"></i>
+            </a>
+            <a
+              id="contact-linkedin"
+              class="group relative flex h-full w-full animate-diagonal flex-col justify-center rounded-2xl bg-opacity-0 bg-[url('/images/funky.png')] bg-fixed p-4 text-center text-white shadow"
+              href="https://www.linkedin.com/in/archriste/"
+              target="_blank"
+            >
+              <div
+                class="absolute inset-0 h-full w-full rounded-2xl transition duration-200 group-hover:backdrop-invert"
+              ></div>
+              <i class="fab fa-linkedin fa-5x"></i>
+            </a>
+            <a
+              id="contact-github"
+              class="group relative flex h-full w-full animate-diagonal flex-col justify-center rounded-2xl bg-opacity-0 bg-[url('/images/funky.png')] bg-fixed p-4 text-center text-white shadow"
+              href="https://github.com/archriste"
+              target="_blank"
+            >
+              <div
+                class="absolute inset-0 h-full w-full rounded-2xl transition duration-200 group-hover:backdrop-invert"
+              ></div>
+              <i class="fab fa-github fa-5x"></i>
+            </a>
+            <a
+              id="contact-phone"
+              class="group relative flex h-full w-full animate-diagonal flex-col justify-center rounded-2xl bg-opacity-0 bg-[url('/images/funky.png')] bg-fixed p-4 text-center text-white shadow"
+              href="tel:1-312-569-0404"
+            >
+              <div
+                class="absolute inset-0 h-full w-full rounded-2xl transition duration-200 group-hover:backdrop-invert"
+              ></div>
+              <i class="fas fa-phone fa-5x"></i>
+            </a>
+          </div>
           <a
-            id="contact-email"
-            class="group relative flex h-full w-full animate-diagonal flex-col justify-center rounded-2xl bg-opacity-0 bg-[url('/images/funky.png')] bg-fixed p-4 text-center text-white shadow"
-            href="mailto:alain@christe.co"
+            href="Resume.pdf"
+            class="block py-8 text-center font-inter text-5xl drop-shadow-xl"
           >
-            <div
-              class="absolute inset-0 h-full w-full rounded-2xl transition duration-200 group-hover:backdrop-invert"
-            ></div>
-            <i class="fas fa-envelope fa-5x"></i>
+            Or click here to download my resume.
           </a>
-          <a
-            id="contact-linkedin"
-            class="group relative flex h-full w-full animate-diagonal flex-col justify-center rounded-2xl bg-opacity-0 bg-[url('/images/funky.png')] bg-fixed p-4 text-center text-white shadow"
-            href="https://www.linkedin.com/in/archriste/"
-            target="_blank"
-          >
-            <div
-              class="absolute inset-0 h-full w-full rounded-2xl transition duration-200 group-hover:backdrop-invert"
-            ></div>
-            <i class="fab fa-linkedin fa-5x"></i>
-          </a>
-          <a
-            id="contact-github"
-            class="group relative flex h-full w-full animate-diagonal flex-col justify-center rounded-2xl bg-opacity-0 bg-[url('/images/funky.png')] bg-fixed p-4 text-center text-white shadow"
-            href="https://github.com/archriste"
-            target="_blank"
-          >
-            <div
-              class="absolute inset-0 h-full w-full rounded-2xl transition duration-200 group-hover:backdrop-invert"
-            ></div>
-            <i class="fab fa-github fa-5x"></i>
-          </a>
-          <a
-            id="contact-phone"
-            class="group relative flex h-full w-full animate-diagonal flex-col justify-center rounded-2xl bg-opacity-0 bg-[url('/images/funky.png')] bg-fixed p-4 text-center text-white shadow"
-            href="tel:1-312-569-0404"
-          >
-            <div
-              class="absolute inset-0 h-full w-full rounded-2xl transition duration-200 group-hover:backdrop-invert"
-            ></div>
-            <i class="fas fa-phone fa-5x"></i>
-          </a>
-        </div>
-        <a href="Resume.pdf" class="py-8 block text-center font-inter text-5xl drop-shadow-xl">
-          Or click here to download my resume.
-        </a>
         </div>
       </section>
     </div>

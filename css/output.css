@@ -594,6 +594,7 @@ video {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
+  will-change: transform;
 }
 
 .stuck{
@@ -718,6 +719,10 @@ video {
 
 .top-2\/4{
   top: 50%;
+}
+
+.top-3\/4{
+  top: 75%;
 }
 
 .top-full{
