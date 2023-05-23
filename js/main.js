@@ -19,12 +19,10 @@ $(document).ready(function () {
     // If the user has scrolled past the hero section, add the stuck class to the navbar
     if (scrollPos >= navbarTop) {
       navbar.classList.add("stuck");
-      hero.style.visibility = "hidden";
       console.log("added stuck");
       // Otherwise, the stuck class should be removed if it is present
     } else {
       navbar.classList.remove("stuck");
-      hero.style.visibility = "visible";
     }
 
     // Loop through all the sections and check if the current scroll position is within the section

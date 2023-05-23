@@ -566,7 +566,7 @@ video {
   z-index: 50;
   display: flex;
   height: 5rem;
-  min-width: 100vw;
+  min-width: 100%;
   align-items: stretch;
   justify-content: center;
   border-top-width: 1px;
@@ -584,7 +584,6 @@ video {
 
 .sticky-nav a{
   display: flex;
-  width: 9rem;
   align-items: center;
   justify-content: center;
   padding-left: 2rem;
