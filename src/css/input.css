@@ -1,0 +1,22 @@
+/* hero font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+/* src/css/input.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sticky-nav {
+    @apply absolute top-full z-50 flex h-20 w-full items-stretch justify-center border-t shadow shadow-transparent backdrop-blur backdrop-grayscale backdrop-brightness-50;
+  }
+  .sticky-nav a {
+    @apply flex w-36 items-center justify-center px-8 font-inter text-white transition-all duration-200;
+  }
+  .stuck {
+    @apply fixed left-0 top-0 border-b border-t-0;
+  }
+  .active {
+    @apply text-2xl;
+  }
+}

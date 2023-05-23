@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/funky.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+div {
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+button {
+    color: #fff;
+    border: 5px outset #fff;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
