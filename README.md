@@ -1,3 +1,4 @@
+# This is my old portfolio. Have a look at my current one [here!](https://github.com/archriste/archriste.github.io)
 # archriste.github.io
 My main portfolio website. Welcome!<br>
 If you find any issues or ideas for fixing them (or suggestions for content), please email me!
